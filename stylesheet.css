@@ -1,0 +1,79 @@
+/* THE GRADIENT */
+h1,h2 {
+display: flexbox;
+margin-left: 20%; 
+color: rgb(192, 5, 199);
+}
+
+h1,.square,.button,.board>div>a{
+  font-weight: 1200;
+  max-width: 20ch;
+  font-family: 'Heebo', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
+
+}
+h2{
+margin-right: 20%;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+  margin-left: 25%;
+
+}
+.board > div{
+margin: 5px;
+}
+
+.board>div>a{
+margin: auto;
+text-align: auto;
+margin-left: 35px;
+background-color: rgb(235, 99, 212);
+border-radius: 10%;
+color: #ffffff;
+font-size: x-large;
+font-weight: 600;
+}
+.square {
+  box-sizing: border-box;
+  border: 2px solid rgb(16, 216, 223);
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 60px;
+  padding: auto;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size:500%;
+  font-weight: 800;
+  color: rgb(235, 99, 212);
+}
+
+.square:hover {
+  background-color: rgb(192, 5, 199);
+}
+
+
+/* .winner {
+  background-color: lightgreen;
+}
+
+.loser {
+  background-color: pink;
+} */
+
+.button{
+  background-color: rgb(16, 216, 223);
+  border-radius: 25px;
+  border-color: rgb(235, 99, 212);
+  margin-left: 34%;
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+  font-weight: 900;
+}
