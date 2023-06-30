@@ -148,7 +148,7 @@ font-weight: 600;
 /* Media query for mobile devices */
 @media (max-width: 767px) {
   .board, .container {
-    margin-left: 15%;
+    margin-left: 10%;
     margin-right: 25%;
   }
 }
