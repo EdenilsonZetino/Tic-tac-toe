@@ -1,23 +1,20 @@
-h1,h2 {
+h1,h2,.board{
 display: flexbox;
-width: 400px;
+width: 600px;
 text-align: center; 
 color: rgb(192, 5, 199);
 }
 
 h1,.square,.button,.board>div>a{
   font-weight: 1200;
-  max-width: 20ch;
+  max-width: 40ch;
   font-family: 'Heebo', sans-serif; 
   font-family: 'Montserrat', sans-serif;
-
 }
 
-
-.board {
+.board,.container {
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
   margin-left: 36%;
 
 }
@@ -37,10 +34,10 @@ font-weight: 600;
 }
 .square {
   box-sizing: border-box;
-  border: 2px solid rgb(16, 216, 223);
+  border: 3px solid rgb(16, 216, 223);
   background-color: #ffffff;
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
   text-align: center;
   line-height: 100px;
   font-size: 60px;
@@ -60,6 +57,8 @@ font-weight: 600;
 .button{
   background-color: rgb(16, 216, 223);
   border-radius: 32px;
+  width: 160px;
+  align-items: center;
   border-color: rgb(235, 99, 212);
   margin-left: 37%;
   margin-top: 10px;
@@ -67,3 +66,8 @@ font-weight: 600;
   align-items: center;
   font-weight: 900;
 }
+.container{
+  width: 600px;
+}
+
+
